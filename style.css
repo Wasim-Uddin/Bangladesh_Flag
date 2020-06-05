@@ -1,0 +1,20 @@
+body{
+	margin:0;
+}
+.box{
+	width:700px;
+	height:400px;
+	background:green;
+	position:relative;
+}
+
+.circle{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
